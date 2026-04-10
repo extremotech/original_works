@@ -1,0 +1,7 @@
+num1=int(input('Type in a damn value: '))
+num2=int(input('Type another value already, you slowpoke: '))
+num3=int(input('Just one more number, you nitwit: '))
+total=(num1+num2**num3)
+#print('A soma entre', num1, 'e', num2, 'vale', soma)
+#print('A soma entre {} e entre {} vale {}'. format(num1, num2, soma))
+print(f'The sum of {num1} and {num2} to the power of {num3} is: {total}. Congratulations: you’re not that much of an idiot!')
