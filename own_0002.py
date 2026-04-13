@@ -1,5 +1,5 @@
 num1 = int(input('Please enter a number: '))
 num2 = int(input('Please enter another number: '))
 num3 = int(input('Please enter a third number: '))
-total = (num1+(num2**num3))
+total = int(num1 + (num2 ** num3))
 print(f'The sum of {num1} and, ({num2} to the power of {num3}) is: {total}. Congratulations, your calculation is correct!')
