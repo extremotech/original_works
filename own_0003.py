@@ -1,5 +1,5 @@
 n1 = int(input('Enter n1: '))
 n2 = int(input('Enter n2: '))
 n3 = int(input('Enter n3: '))
-t = ((n1**n2)/n3)
+t = ((n1 ** n2) /n3)
 print(f'({n1} raised to the power of  {n2}) divided by {n3} equals {t} ')
